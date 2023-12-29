@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bmit",
+    "module": "hj-voice",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hj-voice-1.0.aar",
+          "url": "hj-voice-1.0.aar",
+          "size": 17441,
+          "sha512": "8dea2c200b7942feeb260f5b9442a5ef94b45351424f5ef7e8cde922accae482e9943a30d8b6fffb6a11c02998913fa9c3dc10a80b9629bdde852ebec35fcec1",
+          "sha256": "9cf9383a4b1d52fbaee041bb4681097eba18f5a42bac2363f5abc11217064199",
+          "sha1": "5e996fa5d456cd5dc56a212459f6503ee7532107",
+          "md5": "ab61aac85ac8f4383adb7c6d5ab845c7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hj-voice-1.0.aar",
+          "url": "hj-voice-1.0.aar",
+          "size": 17441,
+          "sha512": "8dea2c200b7942feeb260f5b9442a5ef94b45351424f5ef7e8cde922accae482e9943a30d8b6fffb6a11c02998913fa9c3dc10a80b9629bdde852ebec35fcec1",
+          "sha256": "9cf9383a4b1d52fbaee041bb4681097eba18f5a42bac2363f5abc11217064199",
+          "sha1": "5e996fa5d456cd5dc56a212459f6503ee7532107",
+          "md5": "ab61aac85ac8f4383adb7c6d5ab845c7"
+        }
+      ]
+    }
+  ]
+}
